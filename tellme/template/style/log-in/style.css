@@ -1,0 +1,169 @@
+/*Форма входа*/
+
+.log-in {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    width: 600px;
+    height: 525px;
+    box-shadow: 0 11px 20px 0 rgba(0, 0, 0, 0.3);
+    margin: 10px auto;
+    border-radius: 0 0 15px 15px;
+}
+
+.name_secondname {
+    width: 450px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.log-in .group_input {
+    width: 445px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 73px;
+    margin: 0 auto;
+}
+
+.log-in .name_secondname .group_input {
+    float: left;
+    width: 200px;
+}
+
+
+.log-in .group_input.gmail .bar {
+    display: block;
+    float: right;
+    position: relative;
+    top: -55px;
+    left: -15px;
+    height: 1px;
+    font-size: 11px;
+    color: silver;
+}
+
+.log-in .group_input input {
+    width: 430px;
+    border: 0px;
+    cursor: text;
+    border-bottom: 1px solid silver;
+    transition: 0.2s;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.log-in .name_secondname .group_input input {
+    width: 200px;
+}
+
+
+.log-in .group_input label {
+    position: relative;
+    top: -75px;
+    pointer-events: none;
+    color: #ccc;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+
+.log-in .group_input input:focus {
+    outline: none;
+    border-bottom: 1px solid #5264AE;
+}
+
+.log-in .group_input input:focus ~ label,
+.log-in .group_input input:valid ~ label {
+    top: -90px;
+    font-size: 14px;
+    color: #5264AE;
+}
+
+.log-in #login {
+    display: block;
+    background: none;
+    position: relative;
+    font-size: 16px;
+    float: left;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 31px;
+    top: 40px;
+    border: 1px solid silver;
+    line-height: 27px;
+    border-radius: 15px;
+    font-family: 'Roboto', serif;
+}
+
+.log-in #login:hover {
+    transition: 0.5s;
+    border: 2px solid #5264AE;
+    color: #5264AE;
+    cursor: pointer;
+    line-height: 26px;
+}
+
+.log-in #login:focus {
+    outline: none;
+}
+
+.log-in a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    float: left;
+    position: relative;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container {
+    position: relative;
+    top: 65px;
+    padding-top: 30px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container .or {
+    font-size: 13px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    background: #fff;
+    padding: 0 10px;
+    width: 150px;
+}
+
+.log-in .register {
+    display: block;
+    background: white;
+    display: block;
+    font-size: 16px;
+    margin-top: 45px;
+    width: 200px;
+    height: 31px;
+    border: 1px solid silver;
+    text-align: center;
+    line-height: 31px;
+    border-radius: 15px;
+    font-family: 'Roboto', serif;
+}
+
+.log-in .register:hover {
+    transition: 0.5s;
+    border: 2px solid #5264AE;
+    color: #5264AE;
+    cursor: pointer;
+    line-height: 31px;
+    margin-top: 44px;
+}

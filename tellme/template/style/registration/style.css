@@ -1,0 +1,207 @@
+/*Форма регистрации*/
+
+.registration {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    width: 600px;
+    height: 700px;
+    box-shadow: 0 11px 20px 0 rgba(0, 0, 0, 0.3);
+    margin: 10px auto;
+    border-radius: 0 0 15px 15px;
+}
+
+
+.name_secondname {
+    width: 450px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.registration .group_input {
+    width: 445px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 73px;
+    margin: 0 auto;
+}
+
+.registration .name_secondname .group_input {
+    float: left;
+    width: 200px;
+}
+
+.registration .group_input input {
+    width: 430px;
+    border: 0px;
+    cursor: text;
+    border-bottom: 1px solid silver;
+    transition: 0.2s;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.registration .name_secondname .group_input input {
+    width: 200px;
+}
+
+.registration .group_input label {
+    position: relative;
+    top: -75px;
+    pointer-events: none;
+    color: #ccc;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+
+.registration .group_input input:focus {
+    outline: none;
+    border-bottom: 1px solid #5264AE;
+}
+
+.registration .group_input input:focus ~ label,
+.registration .group_input input:valid ~ label {
+    top: -90px;
+    font-size: 14px;
+    color: #5264AE;
+}
+
+.registration .name_secondname .group_input .bar {
+    display: block;
+    float: right;
+    position: relative;
+    top: -55px;
+    font-size: 11px;
+    color: silver;
+}
+
+.registration .group_input.gmail .bar {
+    display: block;
+    float: right;
+    position: relative;
+    top: -55px;
+    font-size: 11px;
+    color: silver;
+    height: 5px;
+    left: -15px;
+}
+
+.registration .group_input.password .bar {
+    display: block;
+    float: right;
+    position: relative;
+    top: -55px;
+    font-size: 11px;
+    color: silver;
+    height: 5px;
+    left: -15px;
+}
+
+.log-in .group_input .bar {
+    display: block;
+    float: right;
+    position: relative;
+    left: -33px;
+    top: 19px;
+    height: 1px;
+    font-size: 11px;
+    color: silver;
+}
+
+
+.registration .group_input.password {
+    margin-top: -10px;
+}
+
+.registration h6 {
+    display: block;
+    margin-left: 75px;
+}
+
+.your_birthday {
+    width: 220px;
+    height: 50px;
+    float: right;
+    position: relative;
+    top: -75px;
+    right: 80px;
+}
+
+.your_birthday select {
+    float: left;
+    width: 70px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+
+.registration .mle {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    width: 250px;
+    position: relative;
+    float: right;
+    top: -70px;
+    right: 45px;
+}
+
+.registration .mle label {
+    cursor: pointer;
+}
+
+.registration #register {
+    margin: 0 auto;
+    display: block;
+    background: none;
+    position: relative;
+    font-size: 16px;
+    float: left;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 31px;
+    top: 20px;
+    border: 1px solid silver;
+    line-height: 27px;
+    border-radius: 15px;
+    font-family: 'Roboto', serif;
+}
+
+.registration #register:hover {
+    transition: 0.5s;
+    border: 2px solid #5264AE;
+    color: #5264AE;
+    cursor: pointer;
+    line-height: 26px;
+}
+
+.registration #register:focus {
+    outline: none;
+}
+
+.registration .agree {
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 400px;
+    height: auto;
+    font-size: 13px;
+    color: #A9A9A9;
+    margin: 0 auto;
+    top: -15px;
+    position: relative;
+    left: 90px;
+}
+
+.registration .agree a {
+    text-decoration: none;
+    color: #5264AE;
+}
+
+.registration #load {
+    position: inherit;
+    background: red;
+}

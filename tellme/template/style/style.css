@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:900');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+body{
+	margin: 0 auto;
+}
+
+
+/*Верхнее меню*/
+.container{
+	width: 1920px;
+	height: auto;
+}
+
+.head_menu{
+	width: 100%;
+	height: 75px;
+	background: white;
+	border-bottom: 1px solid silver;
+}
+
+.head_menu .logany{
+	margin: 0 auto;
+	width: 1080px;
+	height: 75px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	color: black;
+}
+
+.head_menu .logany .logo{
+	width: 200px;
+	height: 51px;
+	color: white;
+	position: absolute;
+	top: 11px;
+	font-size: 20px;
+}
+
+.head_menu .logany .logo .logo_image {
+	background: black;
+	width: 50px;
+	height: 51px;
+	float: left;
+	text-align: center;
+	line-height: 49px;
+}
+
+
+.head_menu .logany .logo .name {
+	background: black;
+	width: 148px;
+	height: 29px;
+	float: right;
+	line-height: 28px;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+}
+.head_menu .logany .logo .link{
+	font-size: 15px;
+	background: black;
+	width: 100px;
+	height: 20px;
+	float: left;
+	line-height: 19px;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+
+.head_menu .logany .log-in{
+	width: 600px;
+	height: 75px;
+	float: right;
+	opacity: 0;
+	display: none;
+}
+
+.head_menu .logany .log-in.is-active{
+	display: block;
+	opacity: 1;
+	float: right;
+}
+
+.head_menu .logany .log-in a{
+	color: black;
+	font-size: 16px;
+	text-decoration: none;
+	position: relative;
+	top: -25px;
+}
+
+.head_menu .logany .log-in .group_input{
+	width: 200px;
+	height: 75px;
+	float: left;
+	font-size: 16px;
+	line-height: 73px;
+}
+
+.head_menu .logany .log-in .group_input input{
+	border: 0px;
+	border-bottom: 1px solid silver;
+	transition: 0.2s;
+	transition: 0.2s ease all;
+	-moz-transition: 0.2s ease all;
+	-webkit-transition: 0.2s ease all;
+}
+
+.head_menu .logany .log-in .group_input label {
+	position: relative;
+	top: -75px;
+	pointer-events: none;
+	color: #ccc;
+	transition: 0.2s ease all;
+	-moz-transition: 0.2s ease all;
+	-webkit-transition: 0.2s ease all;
+}
+
+.head_menu .logany .log-in .group_input input:focus{
+	outline: none;
+	border-bottom: 1px solid #5264AE;	
+}
+
+.head_menu .logany .log-in .group_input input:focus ~ label,
+.head_menu .logany .log-in .group_input input:valid ~ label{
+	top: -90px;
+	font-size: 14px;
+ 	color: #5264AE;
+}
+
+
+.head_menu .logany .log-in .form_button{
+	width: 150px;
+	height: 30px;
+	margin: 0 auto;
+	cursor: pointer;
+	position: relative;
+	top: -5px;
+	border-radius: 10px;
+	background: black;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: 0px;
+}
+
+.head_menu .logany .log-in .form_button:focus{
+	outline: none;
+}
+
+.my_account{
+	float: right;
+	font-size: 17px;
+	width: 200px;
+	height: 75px;
+}
+
+.my_account .button{
+	width: 200px;
+	height: 31px;
+	border: 1px solid silver;
+	text-align: center;
+	line-height: 30px;
+	margin: 18px auto;
+	border-radius: 15px;
+}
+
+.my_account .button:hover{
+	transition: 0.5s;
+	border: 2px solid #5264AE;
+	color: #5264AE;
+	margin: 17px auto;
+	cursor: pointer;
+}
+
+.my_account.is-active{
+	display: none;
+}
+
+.registration #warnings,
+.log-in #warnings{
+	width: 400px;
+	height: 20px;
+	text-align: center;
+	float: left;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 40px;
+	color: red;
+	font-size: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.log-in #warnings{
+	top: 67px;
+}

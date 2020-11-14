@@ -1,0 +1,10 @@
+<!-- update -->
+$info = array('verify' => '1');
+$add_array = array('id' => 123);
+$tell =  $this->sqlQuery('update', $info, 'table name', '', $add_array);
+<!-- select -->
+$info = array('id' => '123');
+$tell =  $this->sqlQuery('select', $info, 'table name', 'id');
+<!-- insert -->
+$info = array('name' => 'Alex');
+$tell =  $this->sqlQuery('insert', $info, 'table name', '');
